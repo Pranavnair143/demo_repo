@@ -1,0 +1,14 @@
+- List remote repositories configured
+    git remote -v
+
+- Upstream -> original repo(From which we forked)
+  origin -> forked repo (In which we work)
+  Downstream -> Forked from origin (Our work is forked)
+
+- Add upstream to our forked repo for sync
+    git remote add upstream <.git url of the original repo>
+
+- Create new branch
+  git checkout -b <branch_name>
+
+-
